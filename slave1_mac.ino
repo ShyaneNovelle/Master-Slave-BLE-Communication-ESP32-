@@ -20,7 +20,7 @@ class MyServerCallbacks : public BLEServerCallbacks {
 
 class MyCallbacks : public BLECharacteristicCallbacks {
   void onWrite(BLECharacteristic *pCharacteristic) {
-    auto value = pCharacteristic->getValue();   // works with String or std::string
+    auto value = pCharacteristic->getValue(); 
     if (value.length() > 0) {
       char c = value[0];
       Serial.print("Received Value: ");
