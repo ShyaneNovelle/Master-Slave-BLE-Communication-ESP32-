@@ -3,7 +3,6 @@
 
 const int BUTTON_PIN = 18;
 
-// PUT YOUR SLAVE MAC ADDRESSES HERE (lowercase, copy from each slave's Serial Monitor)
 const char *SLAVE_MACS[] = { "aa:bb:cc:dd:ee:01", "aa:bb:cc:dd:ee:02" };
 
 const char *SERVICE_UUIDS[] = {
